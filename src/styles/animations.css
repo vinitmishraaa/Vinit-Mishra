@@ -1,0 +1,107 @@
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease both;
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.animate-orbit {
+  animation: orbit 20s linear infinite;
+}
+
+.hero-content {
+  animation: fadeUp 0.8s ease both;
+}
+
+.hero-visual {
+  animation: fadeIn 1s ease 0.2s both;
+}
+
+.about-main {
+  animation: fadeUp 0.8s ease both;
+}
+
+.about-info-card {
+  animation: fadeUp 0.7s ease both;
+}
+
+.skill-card {
+  animation: fadeUp 0.7s ease both;
+}
+
+.education-item {
+  animation: fadeUp 0.7s ease both;
+}
+
+.project-card {
+  animation: fadeUp 0.7s ease both;
+}
+
+.contact-wrapper {
+  animation: fadeUp 0.8s ease both;
+}
