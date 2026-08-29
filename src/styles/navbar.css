@@ -14,11 +14,12 @@
   justify-content: space-between;
   min-height: 52px;
   padding: 0 18px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
   border-radius: 16px;
-  background: rgba(7, 7, 10, 0.72);
+  background: rgba(7, 7, 7, 0.78);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.18);
 }
 
 .navbar-logo {
@@ -29,7 +30,7 @@
 }
 
 .navbar-logo span {
-  color: var(--accent-secondary);
+  color: var(--accent);
 }
 
 .navbar-links {
@@ -52,11 +53,7 @@
   bottom: -7px;
   left: 0;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    var(--accent),
-    var(--accent-secondary)
-  );
+  background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
   content: "";
   transform: scaleX(0);
   transform-origin: right;
@@ -64,7 +61,7 @@
 }
 
 .navbar-links a:hover {
-  color: var(--text-primary);
+  color: var(--accent);
 }
 
 .navbar-links a:hover::after {
@@ -107,16 +104,14 @@
     align-items: stretch;
     gap: 4px;
     padding: 10px;
-    background: rgba(7, 7, 10, 0.96);
+    background: rgba(7, 7, 7, 0.96);
     border: 1px solid var(--border);
     border-radius: 16px;
     backdrop-filter: blur(20px);
     opacity: 0;
     pointer-events: none;
     transform: translateY(-8px);
-    transition:
-      opacity 0.25s ease,
-      transform 0.25s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
   }
 
   .navbar-links.active {
@@ -131,7 +126,7 @@
   }
 
   .navbar-links a:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 138, 120, 0.06);
   }
 
   .navbar-links a::after {
