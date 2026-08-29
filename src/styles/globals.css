@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 :root {
-  --bg-primary: #07070a;
-  --bg-secondary: #0d0d12;
+  --bg-primary: #070707;
+  --bg-secondary: #101010;
 
-  --text-primary: #f5f7ff;
-  --text-secondary: #a7a9b4;
-  --text-muted: #6f7280;
+  --text-primary: #fff7f5;
+  --text-secondary: #b9aaa7;
+  --text-muted: #776d6a;
 
-  --accent: #8b5cf6;
-  --accent-secondary: #22d3ee;
+  --accent: #FF8A78;
+  --accent-secondary: #FFB4A8;
+  --accent-deep: #e96f5d;
 
-  --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(255, 255, 255, 0.16);
+  --border: rgba(255, 138, 120, 0.12);
+  --border-hover: rgba(255, 138, 120, 0.28);
 
   --container-width: 1180px;
   --section-padding: 110px;
@@ -45,12 +46,12 @@ body {
   background:
     radial-gradient(
       circle at 15% 10%,
-      rgba(139, 92, 246, 0.055),
+      rgba(255, 138, 120, 0.075),
       transparent 30%
     ),
     radial-gradient(
       circle at 85% 60%,
-      rgba(34, 211, 238, 0.035),
+      rgba(255, 180, 168, 0.04),
       transparent 30%
     ),
     var(--bg-primary);
@@ -58,7 +59,7 @@ body {
 
 body::selection {
   color: white;
-  background: rgba(139, 92, 246, 0.5);
+  background: rgba(255, 138, 120, 0.5);
 }
 
 a {
@@ -107,7 +108,7 @@ img {
 .section-label {
   display: inline-block;
   margin-bottom: 14px;
-  color: var(--accent-secondary);
+  color: var(--accent);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.13em;
@@ -159,11 +160,11 @@ img {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 138, 120, 0.28);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 138, 120, 0.5);
 }
 
 @media (max-width: 700px) {
