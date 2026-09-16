@@ -14,7 +14,7 @@ const skills = {
     "Claude",
     "ChatGPT",
     "Gemini",
-    "Groq",
+    "Grok",
     "Wispr",
     "Perplexity"
   ],
