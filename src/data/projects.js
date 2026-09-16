@@ -24,22 +24,75 @@ const projects = [
   },
 
   {
-    title: "KRISHIMITRA",
-    category: "AI / Agriculture",
+    title: "NIGRANI",
+    category: "AI / Evidence Verification",
     description:
-      "A platform designed to help modern farmers find suitable crops according to their location and soil conditions.",
+      "An image-evidence discovery and verification system that combines local vision, reverse-image search, evidence fingerprinting, and tamper-evident records.",
     technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "TensorFlow.js",
+      "SerpApi",
+      "SHA-256"
     ],
     topics: [
-      "Agriculture",
-      "Crop Recommendation",
-      "Soil Analysis",
-      "Web Development"
+      "Image Verification",
+      "Reverse Image Search",
+      "Computer Vision",
+      "Evidence Integrity"
     ],
-    github: "https://github.com/vinitmishraaa/KRISHIMITRA",
+    github: "https://github.com/vinitmishraaa/NIGRANI",
+    live: "https://nigrani-g05v.onrender.com/",
+    featured: true
+  },
+
+  {
+    title: "RakshaSetu",
+    category: "GIS / Disaster Management",
+    description:
+      "A GIS-based disaster risk and decision-support platform for monitoring hazards, assessing vulnerable locations, recommending safe sites, planning relocation routes, and preparing alerts.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "Leaflet",
+      "OSRM",
+      "Recharts"
+    ],
+    topics: [
+      "Disaster Management",
+      "GIS",
+      "Risk Analysis",
+      "Relocation Planning"
+    ],
+    github: "https://github.com/vinitmishraaa/RAKSHASETU",
+    live: "",
+    featured: true
+  },
+
+  {
+    title: "Kawa",
+    category: "Mobile App / Marketplace",
+    description:
+      "A three-sided scrap-collection marketplace connecting customers, Kabadiwalas, and officers for scrap listings, pickup booking, collection tracking, ratings, handovers, and notifications.",
+    technologies: [
+      "Expo",
+      "React Native",
+      "Supabase",
+      "TypeScript",
+      "OpenStreetMap",
+      "Leaflet"
+    ],
+    topics: [
+      "Mobile App",
+      "Scrap Marketplace",
+      "Location Services",
+      "Supabase"
+    ],
+    github: "https://github.com/vinitmishraaa/kawa-app",
     live: "",
     featured: true
   },
@@ -68,45 +121,6 @@ const projects = [
     github: "https://github.com/vinitmishraaa/BRAHMA-voice-rag",
     live: "",
     featured: true
-  },
-
-  {
-    title: "Hacker House Goa",
-    category: "Hackathon Project",
-    description:
-      "A builder-focused project created for the Hacker House Goa experience.",
-    technologies: [
-      "TypeScript"
-    ],
-    topics: [
-      "Hackathon",
-      "Builder Tools",
-      "Web Development"
-    ],
-    github: "https://github.com/vinitmishraaa/Hacker-house-goa",
-    live: "https://hh-goa-v.vercel.app/",
-    featured: true
-  },
-
-  {
-    title: "Biker Station",
-    category: "Web Development",
-    description:
-      "A dedicated web experience built around the biker community and motorcycle-focused content.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    topics: [
-      "Bikers",
-      "Community",
-      "Web Design",
-      "Content"
-    ],
-    github: "https://github.com/vinitmishraaa/Biker-station",
-    live: "https://biker-station.vercel.app/",
-    featured: false
   }
 ];
 
