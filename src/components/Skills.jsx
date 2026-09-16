@@ -27,7 +27,7 @@ const skillGroups = [
       "Claude",
       "ChatGPT",
       "Gemini",
-      "Groq",
+      "Grok",
       "Wispr",
       "Perplexity"
     ]
